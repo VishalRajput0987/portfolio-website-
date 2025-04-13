@@ -1,0 +1,30 @@
+.profile-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1);
+    border: 2px solid lightblue;
+    box-shadow: 0 4px 8px rgba(26, 100, 197, 1.0);
+  }
+  
+  .about-card {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .about-card:hover {
+    transform: scale(1.05); 
+    border: 2px solid lightblue; 
+    box-shadow: 0 4px 8px rgba(26, 100, 197, 1.0);
+
+  }
+
+.about-section {
+    background-color: #f8f8f8;
+    padding: 20px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section:hover {
+      background-color: #e6f7ff;
+  }
